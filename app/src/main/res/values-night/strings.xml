@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acessar">acessar</string>
+    <string name="esqueci_minha_senha">Esqueci minha senha</string>
+    <string name="meu_cadastro">Meu Cadastro</string>
+    <string name="meu_endere_o">Meu Endereço</string>
+    <string name="meu_pedido">Meu Pedido</string>
+    <string name="sobre_soft">Sobre</string>
+    <string name="historico_de_compras">Histórico de Compras</string>
+    <string name="cadastro_endereco">Cadastro de Endereço</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="aplicar">APLICAR</string>
+    <string name="hint_referencia">Referência :</string>
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDE2AD"
+    tools:context=".CadastroActivity">
+
+
+<LinearLayout
+    android:id="@+id/ll_dados_pessoais_tit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EDE2AD"
+    android:orientation="horizontal"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/lbl_cad_dados_pessoais"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="#3D3124"
+        android:gravity="center"
+        android:text="@string/titulo_dados_pessoais"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_cad_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="200dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_dados_pessoais_tit">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txt_input_layout_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:textColorHint="#000000">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_nome_cad"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_weight="1"
+                android:hint="@string/nome" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txt_input_layout_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000000">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_email_cad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/seu_email"
+                android:inputType="textEmailAddress"
+                android:textColor="#000000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txt_input_layout_cpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000000">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/input_cpf_cad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cpf"
+                android:inputType="numberDecimal"
+                android:textColor="#000000" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_cad_2_cpf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal"
+            android:paddingEnd="16dp">
+
+            <Switch
+                android:id="@+id/btn_switch1_enable_cpf"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:paddingRight="20dp"
+                android:text="@string/inserir_cpf_na_nota"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_edit_passwd"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_form_theme"
+                android:text="@string/alterar_senha" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/linearLayout6"
+    android:layout_width="0dp"
+    android:layout_height="50dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <Button
+        android:id="@+id/btn_cancelar_cad"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_form_theme"
+        android:text="@string/cancelar"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_aplicar_cad"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_form_theme"
+        android:text="@string/aplicar"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Delivery</string>
+    <string name="seu_email">Seu email :</string>
+    <string name="_senha">Senha :</string>
+    <string name="textlogin">Login :</string>
+    <string name="btn_acessar">ACESSAR</string>
+    <string name="acessar">acessar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="esqueci_minha_senha">Esqueci minha senha</string>
+    <string name="meu_cadastro">Minha Conta</string>
+    <string name="meu_endere_o">Endereço</string>
+    <string name="meu_pedido">Meu Pedido</string>
+    <string name="sobre_soft">Sobre</string>
+    <string name="historico_de_compras">Histórico de Compras</string>
+    <string name="cadastro_endereco">Cadastro de Endereço</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="aplicar">APLICAR</string>
+    <string name="hint_referencia">Referência :</string>
+    <string name="cep">CEP :</string>
+    <string name="buscar_cep">Buscar CEP</string>
+    <string name="hint_logradouro">Logradouro:</string>
+    <string name="hint_bairro">Bairro :</string>
+    <string name="hint_nro">N º</string>
+    <string name="hint_complemento">Complemento</string>
+    <string name="titulo_dados_pessoais">Dados Pessoais</string>
+    <string name="nome">Nome :</string>
+    <string name="cpf">CPF :</string>
+    <string name="inserir_cpf_na_nota">Inserir CPF na Nota</string>
+    <string name="alterar_senha">Alterar Senha</string>
+    <string name="alterar_senha2">Alterar Senha2</string>
+    <string name="digite_sua_senha">Digite Sua Senha</string>
+    <string name="insira_a_nova_senha">Insira a Nova Senha</string>
+    <string name="confirme_a_nova_senha">Confirme a Nova Senha</string>
+    <string name="pre_o_temp">Preço temp</string>
+    <string name="titulo_temp">titulo temp</string>
+    <string name="add_temp">add</string>
+</resources>

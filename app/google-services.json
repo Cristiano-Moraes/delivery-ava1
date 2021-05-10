@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "887011879331",
+    "project_id": "app-delivery-202012",
+    "storage_bucket": "app-delivery-202012.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887011879331:android:b4536668cab73dac221216",
+        "android_client_info": {
+          "package_name": "com.moraes.mobile.delivery_cliente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887011879331-pab4fdjlr4e9fn345o2jdtdd77ohj403.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moraes.mobile.delivery_cliente",
+            "certificate_hash": "c3794f7f587f3160434ed1ea7fbd209c06e1c5b7"
+          }
+        },
+        {
+          "client_id": "887011879331-02khgpn2pl9jl5ldehe1f75ekks8t51r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ786m37QWlutf_rIaB8Vuv32OAICgJDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887011879331-02khgpn2pl9jl5ldehe1f75ekks8t51r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
